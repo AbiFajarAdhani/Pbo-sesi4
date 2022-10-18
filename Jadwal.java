@@ -3,9 +3,9 @@ import java.sql.Time;
 public class Jadwal {
 
     public static void main(String[] args) {
-        //Pemanggilan Overriding
+        //Overriding
 
-        Mahasiswa mhs = new Mahasiswa("Ario Febri");
+        Mahasiswa mhs = new Mahasiswa("Abi Fajarp");
         mhs.info();
 
         mhs = new Dosen("Alun Sujjada M.Kom");
@@ -19,7 +19,7 @@ public class Jadwal {
         waktu("Rabu",7, "Pagi");
     }
 
-    // =========== Overloading ==============
+    //Overloading
     static void waktu(int Wkt){
         System.out.println("Waktu Kuliah/M \t : " + Wkt);
     }
