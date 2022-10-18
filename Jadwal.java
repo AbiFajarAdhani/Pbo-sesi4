@@ -11,11 +11,11 @@ public class Jadwal {
         mhs = new Dosen("Alun Sujjada M.Kom");
         mhs.info();
 
-        mhs = new MataKuliah("Pemrograman berorientasi Objek");
+        mhs = new MatKul("Pemrograman berorientasi Objek");
         mhs.info();
 
         waktu(100);
-        waktu("10 Desember 2022");
+        waktu("16 Desember 2022");
         waktu("Rabu",7, "Pagi");
     }
 
