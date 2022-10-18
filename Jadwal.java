@@ -11,7 +11,7 @@ public class Jadwal {
         mhs = new Dosen("Alun Sujjada M.Kom");
         mhs.info();
 
-        mhs = new MatKul("Pemrograman berorientasi Objek");
+        mhs = new Matkul("Pemrograman berorientasi Objek");
         mhs.info();
 
         waktu(100);
